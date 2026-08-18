@@ -71,7 +71,7 @@ app, for the same reason. No administrator rights needed.
 
 You'll need an API key from the AI service you want to use. The settings page links to where to get one.
 
-The app checks this page on launch and can update itself in one click.
+The app checks this page on launch and tells you when a newer version is out. On macOS it can update itself in one click; on Windows it hands you the installer to run, because an installer cannot replace a program while it is running.
 
 ---
 
