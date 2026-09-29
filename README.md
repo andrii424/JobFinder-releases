@@ -39,8 +39,6 @@ CV and letter as proper PDFs. You can rewrite any of it by describing the change
 **Keeps track.** It remembers where each application stands — applied, test task, interviews, offer or
 rejection — so you can see what your effort is actually producing.
 
-**Tells you when something good turns up.** Optional Telegram digest, strong matches only.
-
 It does **not** apply to jobs for you. Everything is drafted for you to read, edit and send yourself.
 
 ---
@@ -50,21 +48,28 @@ It does **not** apply to jobs for you. Everything is drafted for you to read, ed
 Job Finder runs entirely on your own computer. There's no account to create, no server of mine to sign
 into, and no copy of your CV anywhere but your own machine.
 
-The reading and writing are done by an AI service you choose and pay for directly — you paste your own
+The reading and writing are done by an AI service you choose and pay for directly — OpenAI, DeepSeek or
+Google Gemini, and you can use a cheap one for scanning and a better one for writing. You paste your own
 API key into the app's settings, and it stays on your machine. The app states plainly which of your data
 goes to that service and where its servers are, so you can decide before switching anything on.
 
-Beyond that, the only things it talks to are the job boards it's reading, Telegram if you turn the
-digest on, and GitHub to check whether a newer version exists.
+Beyond that, the only things it talks to are the job boards it's reading and GitHub, to check whether a
+newer version exists.
 
 ---
 
 ## Installing
 
-**macOS** — open the `.dmg` and drag Job Finder to Applications. The first time you open it, right-click
-the app and choose **Open** rather than double-clicking. macOS asks this once for any app that isn't
-signed with a paid Apple Developer certificate, which this one isn't — it's a personal project, not a
-registered developer account. After that it opens normally.
+**macOS** — open the `.dmg` and drag Job Finder to Applications. The app isn't signed with a paid Apple
+Developer certificate — it's a personal project, not a registered developer account — so macOS may say
+it is **"damaged and can't be opened"**. It isn't damaged; macOS has quarantined a download it can't
+verify. Don't move it to the Bin — open Terminal and run, once:
+
+```
+xattr -dr com.apple.quarantine "/Applications/Job Finder.app"
+```
+
+After that it opens normally with a double-click.
 
 **Windows** — run the installer and choose **More info → Run anyway** when Windows flags an unrecognised
 app, for the same reason. No administrator rights needed.
