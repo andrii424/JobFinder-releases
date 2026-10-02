@@ -39,6 +39,8 @@ CV and letter as proper PDFs. You can rewrite any of it by describing the change
 **Keeps track.** It remembers where each application stands — applied, test task, interviews, offer or
 rejection — so you can see what your effort is actually producing.
 
+**Tells you when something good turns up.** Optional Telegram digest, strong matches only.
+
 It does **not** apply to jobs for you. Everything is drafted for you to read, edit and send yourself.
 
 ---
@@ -53,8 +55,8 @@ Google Gemini, and you can use a cheap one for scanning and a better one for wri
 API key into the app's settings, and it stays on your machine. The app states plainly which of your data
 goes to that service and where its servers are, so you can decide before switching anything on.
 
-Beyond that, the only things it talks to are the job boards it's reading and GitHub, to check whether a
-newer version exists.
+Beyond that, the only things it talks to are the job boards it's reading, Telegram if you turn the
+digest on, and GitHub to check whether a newer version exists.
 
 ---
 
