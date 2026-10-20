@@ -97,6 +97,7 @@ Working, and in daily use by me. It's built around how I look for work, so expec
 you try it and something is confusing or broken, tell me on
 [LinkedIn](https://www.linkedin.com/in/andrii-stakhov-888000310/).
 
-Free to use. Not open source, and not licensed for redistribution or reuse.
+Free to use, and open source under the Apache License 2.0. The code is at
+[andrii424/JobFinder](https://github.com/andrii424/JobFinder).
 
 © Andrii Stakhov
