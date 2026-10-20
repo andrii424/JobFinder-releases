@@ -8,7 +8,7 @@ A desktop app that finds job openings worth your time, and helps you apply to th
 
 ## Who made this
 
-I'm **Andrii Stakhov** — a Product Operations Manager. I'm from Ukraine and I live in Tallinn, Estonia.
+I'm **Andrii Stakhov** — a Product Operations Manager. I'm from Ukraine and I live in Valencia, Spain.
 
 I was applying for roles across Europe and losing entire evenings to the same three chores: scrolling
 past listings that were never going to fit, re-reading the same rejections, and rewriting the same cover
@@ -17,8 +17,7 @@ letter for the tenth time. So I built something to do the boring parts. It's bee
 This is a personal project. There's no team behind it, nothing is being sold, and there's nothing to
 sign up for.
 
-**LinkedIn:** [andrii-stakhov](https://www.linkedin.com/in/andrii-stakhov-888000310/) — that's me, and
-the fastest way to reach me if something breaks or you want to ask what it does.
+If something breaks, or you want to ask what it does, [open an issue](https://github.com/andrii424/JobFinder/issues).
 
 ---
 
@@ -85,7 +84,7 @@ The app checks this page on launch and tells you when a newer version is out. On
 ## What it doesn't do
 
 - It doesn't submit applications on your behalf.
-- It doesn't log into LinkedIn or any job board for you, and never asks for those passwords.
+- It doesn't log into any job board for you, and never asks for your passwords.
 - It doesn't collect analytics, usage data, or anything else about you.
 - It doesn't send your CV anywhere except the AI service you chose, when you ask it to do something.
 
@@ -94,8 +93,7 @@ The app checks this page on launch and tells you when a newer version is out. On
 ## Status
 
 Working, and in daily use by me. It's built around how I look for work, so expect opinions baked in. If
-you try it and something is confusing or broken, tell me on
-[LinkedIn](https://www.linkedin.com/in/andrii-stakhov-888000310/).
+you try it and something is confusing or broken, [open an issue](https://github.com/andrii424/JobFinder/issues).
 
 Free to use, and open source under the Apache License 2.0. The code is at
 [andrii424/JobFinder](https://github.com/andrii424/JobFinder).
